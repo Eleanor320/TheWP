@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.shwetasrivastava.twp.admin_page">
+
+    <Button
+        android:id="@+id/attendance"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="154dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="105dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="choose"
+        android:text="Mark voluteer attendance"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/new_volunteer"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="154dp"
+        android:layout_height="119dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginTop="105dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="choose"
+        android:text="add new volunteer"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/attendance"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <Button
+        android:id="@+id/new_student"
+        style="@android:style/Widget.Material.Button.Inset"
+        android:layout_width="154dp"
+        android:layout_height="119dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="choose"
+        android:text="add new student"
+        tools:layout_editor_absoluteY="262dp"
+        app:layout_constraintLeft_toRightOf="@+id/upload_resources"
+        android:layout_marginLeft="15dp" />
+
+
+    <Button
+        android:id="@+id/view_progress"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="154dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="choose"
+        android:text="view progress reports"
+        app:layout_constraintTop_toBottomOf="@+id/new_student"
+        app:layout_constraintLeft_toRightOf="@+id/upload_schedule"
+        android:layout_marginLeft="15dp" />
+
+    <Button
+        android:id="@+id/upload_resources"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="154dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="38dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="choose"
+        android:text="upload resources"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_volunteer" />
+
+    <Button
+        android:id="@+id/upload_schedule"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="154dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="choose"
+        android:text="upload class schedule"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_student" />
+
+    <Button
+        android:id="@+id/signout"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="98dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="choose"
+        android:text="Sign out"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_progress" />
+</android.support.constraint.ConstraintLayout>

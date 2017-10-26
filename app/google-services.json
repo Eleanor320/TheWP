@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "553506520073",
+    "firebase_url": "https://thewp-e329e.firebaseio.com",
+    "project_id": "thewp-e329e",
+    "storage_bucket": "thewp-e329e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553506520073:android:4c4ea09dc6f2cdad",
+        "android_client_info": {
+          "package_name": "com.shwetasrivastava.twp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553506520073-ocbh6fe7vsvper5hdsjb2sc8suvbqt24.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shwetasrivastava.twp",
+            "certificate_hash": "2a94c0785012ece2628432a8d13d00e5bae8c4ce"
+          }
+        },
+        {
+          "client_id": "553506520073-pr4fie007olj13ag24lv4f260b9cpdm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHNq3Y32KdDwGShkR4jL6HmWrzPLq_984"
+        },
+        {
+          "current_key": "AIzaSyAIYw0C5p0wF6bbWL-8s186EfJZQ9IDriE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553506520073-pr4fie007olj13ag24lv4f260b9cpdm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
